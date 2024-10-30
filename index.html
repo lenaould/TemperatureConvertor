@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+     <title>Document</title>
+</head>
+<body>
+   <div class="container">
+    <h2> Temperature Converter <i class="fa-solid fa-temperature-three-quarters"></i></h2>
+    <label for="UnitFrom">From:</label>
+    <select id="UnitFrom">
+    <option value="C">Celcious</option>
+    <option value="F">Fahrenheit</option>
+    </select>
+
+    <label for="UnitTo">To:</label>
+    <select id="UnitTo">
+    <option value="C">Celcious</option>
+    <option value="F">Fahrenheit</option>
+    </select>
+    <label for="Temp">Temperature:</label>
+    <input type="number" id="Temperature" placeholder="enter Temperature">
+    <button id="convert">Convert</button>
+
+    <label for="resault">Resault:</label>
+    <input type="text" id="resault" readonly>
+
+   </div>
+    <script src="script.js" charset="UTF-8"></script>
+</div>
+</body>
+</html>
